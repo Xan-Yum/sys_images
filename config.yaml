@@ -59,7 +59,9 @@ images:
     - kube-scheduler
     - kube-controller-manager
     - coredns/coredns
+    - defaultbackend-amd64
     - ingress-nginx/controller
+    - ingress-nginx/opentelemetry
     - ingress-nginx/controller-chroot
     - ingress-nginx/kube-webhook-certgen
     # - cpa/cluster-proportional-autoscaler
