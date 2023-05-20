@@ -18,17 +18,17 @@ images:
     # - cephcsi/cephcsi
     # - csiaddons/k8s-sidecar
     # - csiaddons/volumereplication-operator
-    # - prometheus/prometheus
-    # - prometheus/alertmanager
-    # - prometheus/pushgateway
-    # - prometheus/blackbox-exporter
-    # - prometheus/node-exporter
-    # - prometheus-operator/prometheus-config-reloader
-    # - prometheus-operator/prometheus-operator
+     - prometheus/prometheus
+     - prometheus/alertmanager
+     - prometheus/pushgateway
+     - prometheus/blackbox-exporter
+     - prometheus/node-exporter
+     - prometheus-operator/prometheus-config-reloader
+     - prometheus-operator/prometheus-operator
     # - brancz/kube-rbac-proxy
     # - cilium/cilium
     # - cilium/operator-generic
-    # - thanos/thanos
+     - thanos/thanos
     # - cilium/certgen
     # - cilium/hubble-relay
     # - cilium/hubble-ui-backend
@@ -51,30 +51,30 @@ images:
     # - sig-storage/csi-attacher
     # - sig-storage/nfsplugin
   registry.k8s.io:
-    - pause
-    - etcd
-    - conformance
-    - kube-proxy
-    - kube-apiserver
-    - kube-scheduler
-    - kube-controller-manager
-    - coredns/coredns
-    - defaultbackend-amd64
-    - ingress-nginx/controller
-    - ingress-nginx/opentelemetry
-    - ingress-nginx/controller-chroot
-    - ingress-nginx/kube-webhook-certgen
+    #- pause
+    #- etcd
+    #- conformance
+    #- kube-proxy
+    #- kube-apiserver
+    #- kube-scheduler
+    #- kube-controller-manager
+    #- coredns/coredns
+    #- defaultbackend-amd64
+    #- ingress-nginx/controller
+    #- ingress-nginx/opentelemetry
+    #- ingress-nginx/controller-chroot
+    # - ingress-nginx/kube-webhook-certgen
     # - cpa/cluster-proportional-autoscaler
     # - autoscaling/addon-resizer
   gcr.io:
     # - kaniko-project/executor
     # - google-samples/xtrabackup
   docker.io:
-    - calico/node
-    - calico/typha
-    - calico/cni
-    - calico/node
-    - calico/kube-controllers
+    #- calico/node
+    #- calico/typha
+    #- calico/cni
+    #- calico/node
+    #- calico/kube-controllers
     - goharbor/nginx-photon
     - goharbor/harbor-portal
     - goharbor/harbor-core
