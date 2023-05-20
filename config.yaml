@@ -75,4 +75,17 @@ images:
     - calico/cni
     - calico/node
     - calico/kube-controllers
+    - goharbor/nginx-photon
+    - goharbor/harbor-portal
+    - goharbor/harbor-core
+    - goharbor/harbor-jobservice
+    - goharbor/registry-photon
+    - goharbor/harbor-registryctl
+    - goharbor/chartmuseum-photon
+    - goharbor/trivy-adapter-photon
+    - goharbor/notary-server-photon
+    - goharbor/notary-signer-photon
+    - goharbor/harbor-db
+    - goharbor/redis-photon
+    - goharbor/harbor-exporter
     # - calico/pod2daemon-flexvol
