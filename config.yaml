@@ -13,22 +13,22 @@ images:
     # - apm/apm-server
     # - app-search/app-search
   quay.io:
-    - coreos/flannel
+    # - coreos/flannel
     # - ceph/ceph
     # - cephcsi/cephcsi
     # - csiaddons/k8s-sidecar
     # - csiaddons/volumereplication-operator
-    - prometheus/prometheus
-    - prometheus/alertmanager
-    - prometheus/pushgateway
-    - prometheus/blackbox-exporter
-    - prometheus/node-exporter
-    - prometheus-operator/prometheus-config-reloader
+    # - prometheus/prometheus
+    # - prometheus/alertmanager
+    # - prometheus/pushgateway
+    # - prometheus/blackbox-exporter
+    # - prometheus/node-exporter
+    # - prometheus-operator/prometheus-config-reloader
     - prometheus-operator/prometheus-operator
     # - brancz/kube-rbac-proxy
     # - cilium/cilium
     # - cilium/operator-generic
-    - thanos/thanos
+    # - thanos/thanos
     # - cilium/certgen
     # - cilium/hubble-relay
     # - cilium/hubble-ui-backend
@@ -41,7 +41,6 @@ images:
   k8s.gcr.io:
     # - dns/k8s-dns-node-cache
     # - metrics-server/metrics-server
-    # - kube-state-metrics/kube-state-metrics
     # - prometheus-adapter/prometheus-adapter
     # - sig-storage/nfs-subdir-external-provisioner
     # - sig-storage/csi-node-driver-registrar
@@ -66,6 +65,7 @@ images:
     # - ingress-nginx/kube-webhook-certgen
     # - cpa/cluster-proportional-autoscaler
     # - autoscaling/addon-resizer
+    - kube-state-metrics/kube-state-metrics
   gcr.io:
     # - kaniko-project/executor
     # - google-samples/xtrabackup
@@ -75,17 +75,17 @@ images:
     #- calico/cni
     #- calico/node
     #- calico/kube-controllers
-    - goharbor/nginx-photon
-    - goharbor/harbor-portal
-    - goharbor/harbor-core
-    - goharbor/harbor-jobservice
-    - goharbor/registry-photon
-    - goharbor/harbor-registryctl
-    - goharbor/chartmuseum-photon
-    - goharbor/trivy-adapter-photon
-    - goharbor/notary-server-photon
-    - goharbor/notary-signer-photon
-    - goharbor/harbor-db
-    - goharbor/redis-photon
-    - goharbor/harbor-exporter
+    # - goharbor/nginx-photon
+    #- goharbor/harbor-portal
+    #- goharbor/harbor-core
+    #- goharbor/harbor-jobservice
+    #- goharbor/registry-photon
+    #- goharbor/harbor-registryctl
+    #- goharbor/chartmuseum-photon
+    #- goharbor/trivy-adapter-photon
+    #- goharbor/notary-server-photon
+    #- goharbor/notary-signer-photon
+    #- goharbor/harbor-db
+    #- goharbor/redis-photon
+    #- goharbor/harbor-exporter
     # - calico/pod2daemon-flexvol
