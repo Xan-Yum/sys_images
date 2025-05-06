@@ -23,7 +23,7 @@ images:
     # - prometheus/pushgateway
     # - prometheus/blackbox-exporter
     # - prometheus/node-exporter
-    # - prometheus-operator/prometheus-config-reloader
+    - prometheus-operator/prometheus-config-reloader
     - prometheus-operator/prometheus-operator
     # - brancz/kube-rbac-proxy
     # - cilium/cilium
